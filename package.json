@@ -1,0 +1,26 @@
+{
+  "name": "shapecarving",
+  "version": "1.0.0",
+  "description": "",
+  "main": "shapecarve.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johannes-riecken/ShapeCarving.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johannes-riecken/ShapeCarving/issues"
+  },
+  "homepage": "https://github.com/johannes-riecken/ShapeCarving#readme",
+  "dependencies": {
+    "three": "^0.143.0",
+    "threex": "^1.0.0"
+  }
+}
