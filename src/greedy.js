@@ -1,4 +1,4 @@
-var GreedyMesh = (function() {
+export let GreedyMesh = (function() {
 //Cache buffer internally
 var mask = new Int32Array(4096);
 
