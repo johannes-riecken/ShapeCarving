@@ -22,6 +22,6 @@
   "dependencies": {
     "three": "^0.163.0",
     "threex": "^1.0.0",
-    "webpack-bundle-analyzer": "^4.10.1"
+    "webpack-bundle-analyzer": "^4.10.2"
   }
 }
