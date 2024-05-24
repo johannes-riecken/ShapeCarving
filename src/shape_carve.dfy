@@ -57,13 +57,12 @@ method ShapeCarve(dims: seq<nat>, views: seq<seq<int>>, mask_color: int, skip: s
         /*     } */
         /* } */
     }
-}
 
-/*     var removed: int := 1; */
+    var removed: int := 1;
 
-/*     while removed > 0 { */
-/*         removed := 0; */
-/*         for d := 0; d < 3; d := d + 1 { */
+    while removed > 0 {
+        removed := 0;
+        for d := 0 to 3 {
 /*             u := (d + 1) % 3; */
 /*             v := (d + 2) % 3; */
 /*             for s := -1; s <= 1; s := s + 2 { */
@@ -101,9 +100,9 @@ method ShapeCarve(dims: seq<nat>, views: seq<seq<int>>, mask_color: int, skip: s
 /*                     } */
 /*                     adepth[buf_idx] := x[d]; */
 /*                 } */
-/*             } */
-/*         } */
-/*     } */
+            }
+        }
+    }
 
 method fillMissingColors(x: array<int>, dims: seq<nat>, volume: array<int>)
 modifies volume
