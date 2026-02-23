@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/johannes-riecken/ShapeCarving#readme",
   "dependencies": {
-    "three": "^0.175.0",
+    "three": "^0.183.1",
     "threex": "^1.0.0",
     "webpack-bundle-analyzer": "^5.2.0"
   }
